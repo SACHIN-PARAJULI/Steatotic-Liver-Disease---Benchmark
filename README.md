@@ -117,7 +117,7 @@ python step1_2_build_dataset.py
 python step3_4_5_train_evaluate.py
 ```
 Runs Optuna Bayesian hyperparameter tuning (5-fold CV, 30 trials per model).  
-⚠️ This is the slowest step — expect 30–60 min depending on your hardware.
+This is the slowest step — expect 30–60 min depending on your hardware.
 
 **Output:** `splits.pkl`, `all_models.pkl`, `metrics_step5.json`
 
@@ -190,17 +190,3 @@ See `requirements.txt`. Key libraries:
 - `shap` — SHAP attribution
 - `imbalanced-learn` — SMOTE oversampling
 
----
-
-## Paper
-
-The full benchmark paper is available as `sld_benchmark_IEEE.tex` (IEEE conference dual-column format). Compile in [Overleaf](https://overleaf.com):
-1. Upload `sld_benchmark_IEEE.tex`
-2. Create a `plots/` folder and upload all PNG files into it
-3. Set compiler to **pdfLaTeX**
-
----
-
-## License
-
-This project is for academic use (CSE 6361 course project). Dataset is publicly available from the CDC NHANES program.
