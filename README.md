@@ -1,7 +1,7 @@
 # A Benchmark for Interpretable and Calibrated Risk Prediction of Steatotic Liver Disease
 
 **CSE 6361 · University of Texas at Arlington**  
-**Author:** Sachin Parajuli · `sachin.parajuli@mavs.uta.edu`
+**Author:** Sachin Parajuli · `sxp4677@mavs.uta.edu`
 
 ---
 
